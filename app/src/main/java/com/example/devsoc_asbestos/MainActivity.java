@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         TextView txt1 = findViewById(R.id.textView1);
         TextView txt2 = findViewById(R.id.textView5);
         TextView txt3 = findViewById(R.id.textView6);
+        TextView txt4 = findViewById(R.id.textView8);
+        TextView txt5 = findViewById(R.id.textView9);
 
 
         upload.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 txt1.setVisibility(View.VISIBLE);
                 txt2.setVisibility(View.VISIBLE);
                 txt3.setVisibility(View.VISIBLE);
+                txt4.setVisibility(View.VISIBLE);
+                txt5.setVisibility(View.VISIBLE);
                 upload.setVisibility(View.GONE);
                 next.setVisibility(View.VISIBLE);
             }
